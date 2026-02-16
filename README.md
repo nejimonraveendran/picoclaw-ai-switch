@@ -19,7 +19,7 @@ e
 
 ## Usage
 - Clone this repository to your Raspberry Pi Zero 2W to path ```~/git/picoclaw-ai-switch```
-- Update PicoClaw's workspace path to point to the cloned repository path. You can do this by adding the following line to your PicoClaw configuration file (```~/.picoclaw/config.yaml```):
+- Update PicoClaw's workspace path to point to the cloned repository path. You can do this by adding the following lines to your PicoClaw configuration file (```~/.picoclaw/config.yaml```):
     ```yaml
     {
         agents: {
@@ -55,6 +55,6 @@ e
     ```
     picoclaw agent
     ```
-    Then you can ask the AI agent to turn on/off the porch light using commands like "Turn on the porch light", "Turn off my porch light in 5 minutes", etc. The AI agent will respond by executing the appropriate relay control commands and providing feedback on the actions taken.
+    Then you can ask the AI agent to turn on/off the porch light using commands like "Turn on the porch light", "Turn off my porch light", etc. The AI agent will respond by executing the appropriate relay control commands and providing feedback on the actions taken.
     ```
-  - If you want to add more constraints and features such as time-based actions (e.g., "turn off the porch light if it is daytime"), you can modify the `SOUL.md` file to include additional commands and logic for handling these scenarios. Make sure to implement the necessary functions in the `relay_control.py` script to support these features.   
+  - If you want to add more constraints and/or features such as time-based actions (e.g., "turn off the porch light if it is daytime"), you can modify the `SOUL.md` file to include additional commands and logic for handling these scenarios. Make sure to implement the necessary functions in the `relay_control.py` script to support these features.   
