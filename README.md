@@ -1,11 +1,14 @@
 # AI Agent-Controlled Light Switch using PicoClaw and Raspberry Pi Zero 2W
-This is a demo project showing how to use PicoClaw AI agent and Raspberry Pi Zero 2W to control home appliances using natural languag
-e
+This is a demo project showing how to use PicoClaw AI agent and Raspberry Pi Zero 2W to control home appliances using natural language
+
+[]("rpi-light-switch.jpg")
+![Rasperry Pi Zero 2W AI switch](rpi-zero2w.jpg)
+
 
 
 ## Requirements
 - [Raspberry Pi Zero 2W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) 
-- [PicoClaw AI](https://picoclaw.net/) agent installed and configured on Raspberry Pi Zero 2W. Pease refer to my Medium article for detailed documentation of how to set up and configure PicoClaw on Rasperry Pi Zero 2W: [AI Agent-Controlled Light Switch using PicoClaw and Raspberry Pi Zero 2W](https://medium.com/@yourusername/ai-agent-controlled-light-switch-using-picoclaw-and-raspberry-pi-zero-2w-1234567890)
+- [PicoClaw AI](https://picoclaw.net/) agent installed and configured on Raspberry Pi Zero 2W. Pease refer to my Medium article for detailed documentation of how to set up and configure PicoClaw on Rasperry Pi Zero 2W: [Automate Your Life with PicoClaw AI Assistant and Raspberry Pi Zero 2W](https://medium.com/@nejimon.raveendran/automate-your-life-with-picoclaw-ai-assistant-and-raspberry-pi-zero-2w-38c2d5fa9aca)
 - 5V Electromagnetic relay module and jumper wires
 - Python 3.7 or higher (pre-installed on Raspberry Pi OS)
 - Additional packages (if not already installed):
