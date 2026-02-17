@@ -60,4 +60,4 @@ This is a demo project showing how to use PicoClaw AI agent and Raspberry Pi Zer
     ```
     Then you can ask the AI agent to turn on/off the porch light using commands like "Turn on the porch light", "Turn off my porch light", etc. The AI agent will respond by executing the appropriate relay control commands and providing feedback on the actions taken.
     ```
-  - If you want to add more constraints and/or features such as time-based actions (e.g., "turn off the porch light if it is daytime"), you can modify the `SOUL.md` file to include additional commands and logic for handling these scenarios. Make sure to implement the necessary functions in the `relay_control.py` script to support these features.   
+- If you want to add more constraints and/or features such as time-based actions (e.g., "turn off the porch light if it is daytime"), you can modify the `SOUL.md` file to include additional commands and logic for handling these scenarios. Make sure to implement the necessary functions in the `relay_control.py` script to support these features.   
