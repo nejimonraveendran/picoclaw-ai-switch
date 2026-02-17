@@ -51,8 +51,6 @@ def main():
         result = relay_on()   
     elif command == "off":
         result = relay_off()
-    elif command == "time":
-        result = get_time()                
     else:
         result = "Unknown command"
     
